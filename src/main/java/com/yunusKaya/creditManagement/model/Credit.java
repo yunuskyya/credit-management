@@ -24,18 +24,18 @@ public class Credit {
 	@Column(name="id")
 	private Long id;
 	
-	@Column(name="musteri_adi")
-	private String musteriAdi;
+	@Column(name="castumer_name")
+	private String castumerName;
 	
-	@Column(name="kredi_tutari")
-	private double krediTutari;
+	@Column(name="credit_amount")
+	private double creditAmount;
 	
-	@Column(name="kredi_vadesi")
-	private int krediVadesi;
+	@Column(name="credit_term")
+	private int creditTerm;
 	
-	@Column(name="kredi_turu")
+	@Column(name="credit_type")
 	
-	private CreditType krediTuru;
+	private CreditType creditType;
 	
 	
 	
